@@ -5,9 +5,9 @@ import cv2
 import math
 from sort import *
 
-cap = cv2.VideoCapture("C:\Amirreza\ShineTech\w2\Videos\cars.mp4")  # For Video
+cap = cv2.VideoCapture("cars.mp4")  # For Video
 
-model = YOLO("../Running Yolo/yolov8l.pt")
+model = YOLO("yolov8l.pt")
 
 classNames = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "train", "truck", "boat",
               "traffic light", "fire hydrant", "stop sign", "parking meter", "bench", "bird", "cat",
